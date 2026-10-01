@@ -216,3 +216,17 @@ git diff --cached --name-only
 - [Google Sheets API](https://developers.google.com/workspace/sheets/api)
 
 データの出典URLは各行にも残します。取得対象は1地点・2ページで、10分以上の周期を守る設計です。防災判断や予報ではなく、データ連携を学び、実装を説明するためのポートフォリオです。HTMLの変更・公表の遅延・Google Sheetsの容量制限などに合わせて保守が必要です。
+
+## 動作画面
+
+### 取得データ（Weather）
+
+気象庁の公開ページから取得した気象データをGoogle Sheetsへ蓄積します。
+
+![取得した気象データ](images/weather.png)
+
+### 日別集計・時系列グラフ（Summary）
+
+保存したデータから日別集計と気温の時系列グラフを作成します。
+
+![日別集計と気温のグラフ](images/summary.png)
