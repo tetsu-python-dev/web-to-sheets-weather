@@ -1,0 +1,16 @@
+修正版 v2
+
+1. このフォルダをデスクトップへ置いてください。古いフォルダへ上書きしないでください。
+2. いま (.venv) の付いているターミナルで次の2行を実行します。
+
+cd ~/Desktop/WebToSheets-portfolio-v2/weather_scraping
+python main.py --dry-run
+
+今日のページは公開前のためスキップし、昨日の144行を確認します。
+Google認証はこの取得テストには不要です。
+
+config.jsonは設定例と同じダミー値です。実際の認証情報は入っていません。
+新しいターミナルの場合は、先に既存環境を有効にできます。
+source ~/Desktop/WebToSheets-portfolio/.venv/bin/activate
+
+はじめから環境を作る場合やGoogleへの書き込みはREADME.mdを参照してください。

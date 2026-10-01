@@ -1,0 +1,5 @@
+{
+  "spreadsheet_id": "YOUR_WEATHER_SPREADSHEET_ID",
+  "station": {"name": "東京", "prec_no": "44", "block_no": "47662"},
+  "interval_seconds": 600
+}

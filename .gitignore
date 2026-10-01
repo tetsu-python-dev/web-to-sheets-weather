@@ -1,0 +1,20 @@
+# 認証・ローカル設定（サブフォルダにも適用）
+credentials*.json
+token*.json
+*.json.tmp
+client_secret*.json
+config.json
+.env
+.env.*
+*.pem
+*.key
+# 実行環境・生成物
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+logs/
+*.log
+.DS_Store
+__MACOSX/
+*.zip
